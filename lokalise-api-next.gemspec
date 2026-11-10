@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.version               = LokaliseApiNext::VERSION
   spec.authors               = ['Elijah S. Krukowski']
   spec.email                 = ['elskruk@proton.me']
-  spec.summary = 'Ruby SDK for the Lokalise API'
-  spec.description = 'A Ruby client for interacting with the Lokalise API.'
-  spec.homepage = 'https://github.com/lokalise/ruby-lokalise-api-next'
+  spec.summary               = 'Ruby SDK for the Lokalise API'
+  spec.description           = 'A Ruby client for interacting with the Lokalise API.'
+  spec.homepage              = 'https://lokalise.github.io/ruby-lokalise-api-next/'
   spec.license               = 'BSD-3-Clause'
   spec.required_ruby_version = '>= 3.4'
 
@@ -24,8 +24,8 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     'rubygems_mfa_required' => 'true',
-    'source_code_uri' => spec.homepage,
-    'bug_tracker_uri' => "#{spec.homepage}/issues",
-    'documentation_uri' => "#{spec.homepage}#readme"
+    'source_code_uri' => 'https://github.com/lokalise/ruby-lokalise-api-next',
+    'bug_tracker_uri' => 'https://github.com/lokalise/ruby-lokalise-api-next/issues',
+    'documentation_uri' => 'https://lokalise.github.io/ruby-lokalise-api-next/'
   }
 end
